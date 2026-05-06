@@ -1,0 +1,20 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# --- Tool Specific ---
+# Never upload your Ngrok config if you save it locally
+.ngrok2/
+ngrok.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Security ---
+# If you decide to save your token in a text file, ignore it here
+token.txt
